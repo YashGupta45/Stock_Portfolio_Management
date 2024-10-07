@@ -1,6 +1,9 @@
 # Stock_Portfolio
 Stock Portfolio management program made using python &amp; sql
 
+Install yfinance from terminal to get the current market value of stocks:
+pip install yfinance
+
 Create a database called stock_portfolio in mysql:
 
 CREATE DATABASE stock_portfolio;
