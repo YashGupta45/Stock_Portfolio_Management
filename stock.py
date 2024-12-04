@@ -6,7 +6,7 @@ from decimal import Decimal
 db_connection = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="********",
+    password="*******",
     database="stock_portfolio"
 )
 
