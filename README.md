@@ -23,14 +23,12 @@ CREATE TABLE Portfolio (
     total_current_value DECIMAL(10, 2) DEFAULT 0
 );
 
-CREATE TABLE SoldStocks (
+CREATE TABLE PortfolioSummary ( 
     id INT AUTO_INCREMENT PRIMARY KEY,
-    stock_symbol VARCHAR(20),
-    purchase_price DECIMAL(10, 2),
-    sell_price DECIMAL(10, 2),
-    quantity INT,
-    profit_loss DECIMAL(10, 2),
-    sell_date DATE
+    total_invested DECIMAL(10, 2),
+    total_current_value DECIMAL(10, 2),
+    current_p_l DECIMAL(10, 2),
+    sold_p_l DECIMAL(10, 2)
 );
 
 CREATE TABLE PortfolioSummary (
